@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+         body{
+             background-color: rgb(113, 113, 204);
+         }
+         #container{
+             background-color: white;
+            width: 40%;
+            height: 640px;
+            margin: auto;
+            border-radius: 15px;
+         }
+         h1{
+             text-align: center;
+             padding-top: 100px;
+         }
+        #form{
+            width: 70%;
+            margin: auto;
+        }
+        input{
+            font-size: 23px;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-top-style: hidden;
+            margin-top: 50px;
+            padding-bottom: 15px;
+            border-bottom-style: hidden;
+        }
+        hr{
+            height: 2px;
+            background-color: grey;
+        }
+        .login_btn{
+            width: 70%;
+            margin: auto;
+            background-color: blue;
+            height: 65px;
+            margin-top: 35px;
+            font-size: 23px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 70px;
+        }
+        .login_btn>button{
+            font-size: 23px;border: hidden;
+            color: white;
+            background-color: transparent;
+        }
+        .bottom{
+            font-size: 19px;
+            text-align: center;
+            line-height: 20px;
+            line-height: 45px;
+            color: grey;
+        }
+       .bottom>div>p:first-child{
+           display: inline;
+           margin-right: 10px;
+       }
+       .bottom>div>p:last-child{
+           display: inline;
+           color: blue;
+       }
+     </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Login</h1>
+        <div id="form">
+            <input type="email" name="email" id="email" placeholder="Email"><hr>
+            <input type="password" name="email" id="email" placeholder="Password"><hr>
+        </div>
+        <div class="login_btn">
+            <button>Login</button>
+        </div>
+        <div class="bottom">
+            <div>
+                <p>Forgot</p><p>Password</p>? 
+            </div>
+            <div>
+                <p>Don't have an account?</p><p>Sign up</p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
