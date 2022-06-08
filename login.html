@@ -10,11 +10,11 @@
              background-color: rgb(113, 113, 204);
          }
          #container{
-             background-color: white;
+            background-color: white;
             width: 40%;
-            height: 640px;
             margin: auto;
             border-radius: 15px;
+            margin-top: 80px;
          }
          h1{
              text-align: center;
@@ -26,12 +26,9 @@
         }
         input{
             font-size: 23px;
-            border-right-style: hidden;
-            border-left-style: hidden;
-            border-top-style: hidden;
+            border: hidden;
             margin-top: 50px;
             padding-bottom: 15px;
-            border-bottom-style: hidden;
         }
         hr{
             height: 2px;
@@ -40,20 +37,25 @@
         .login_btn{
             width: 70%;
             margin: auto;
-            background-color: blue;
             height: 65px;
             margin-top: 35px;
             font-size: 23px;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            /* display: flex; */
+            /* justify-content: center;
+            align-items: center; */
             margin-bottom: 70px;
         }
         .login_btn>button{
+            height: 100%;
+            width: 100%;
             font-size: 23px;border: hidden;
+            background-image: linear-gradient(to right, blue, purple);
             color: white;
             background-color: transparent;
+        }
+        button:hover {
+            cursor: pointer;
+            color: yellow;
         }
         .bottom{
             font-size: 19px;
@@ -66,10 +68,17 @@
            display: inline;
            margin-right: 10px;
        }
-       .bottom>div>p:last-child{
+       /* .bottom>div>p:last-child{
            display: inline;
            color: blue;
-       }
+       } */
+       a:link {
+            text-decoration: none;
+        }
+
+        #space {
+            padding-bottom: 70px;
+        }
      </style>
 </head>
 <body>
@@ -84,10 +93,10 @@
         </div>
         <div class="bottom">
             <div>
-                <p>Forgot</p><p>Password</p>? 
+                <p>Forgot</p><a href="">Password?</a>
             </div>
-            <div>
-                <p>Don't have an account?</p><p>Sign up</p>
+            <div id="space">
+                <p>Don't have an account?</p><a href="">Sign up</a>
             </div>
         </div>
     </div>
