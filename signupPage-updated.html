@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main {
+        width: 28%;
+        height: auto;
+        margin: auto;
+        background-color: #48c9b0;
+      }
+      #main > p {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 70px;
+        margin-bottom: 60px;
+        color: #e4eeec;
+        font-size: 30px;
+        text-align: center;
+      }
+      #main > input {
+        width: 75%;
+        font-size: 20px;
+        padding: 15px;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+      }
+      input + div {
+        margin-bottom: 40px;
+        border: 1px solid transparent;
+      }
+      div > button {
+        width: 81%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        display: block;
+        margin: auto;
+        padding: 20px;
+        margin-top: 25px;
+        color: white;
+        background-color: #17a589;
+        border: 0px;
+      }
+      button:last-child {
+        margin-bottom: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <p>- Visitor -</p>
+      <input type="text" placeholder="Full Name" />
+      <input type="email" placeholder="Email" />
+      <input type="text" placeholder="Organization" />
+      <div>
+        <button>SIGN UP</button>
+        <button>RETURN</button>
+      </div>
+    </div>
+  </body>
+</html>
