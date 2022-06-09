@@ -6,49 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
-#nav{
-    width:100%;
-   display: flex;
-     align-items: center;
-    justify-content: space-between;
-   
-    border-radius: 20px;
-    background-color: rgb(23, 23, 52);
-    
-}
-p{
-    font-size: 25px;
-    color: white;
-
-}
-.logo{
-    margin-left: 30px;
-}
-.menu{
-    display: flex;
-    gap: 5rem;
-    
-}
-.menu>p:nth-child(4){
-    margin-right: 30px;
-}
-
+        #nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 20px;
+            background-color: rgb(23, 23, 52);
+        }
+        p {
+            font-size: 25px;
+            color: white;
+        }
+        a {
+            font-size: 25px;
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+        }
+        .logo {
+            width: 8%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+        }
+        .menu {
+            width: 35%;
+            display: flex;
+           
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .menu>p:nth-child(4) {
+            margin-right: 30px;
+        }
     </style>
 </head>
 <body>
-
-<div id="nav">
-    <div class="logo">
-    <p>Reebok</p>
-</div>
-<div class="menu">
-    <p>Men</p>
-    <p>Women</p>
-    <p >Login</p>
-    <p >Signup</p>
-</div>
-</div>
-    
+    <div id="nav">
+        <div class="logo">
+            <a href="">Reebok</a>
+          
+        </div>
+        <div class="menu">
+            <a target="_blank" href="mens.html">Men</a>
+           
+            <h2><a href="">Women</a></h2>
+            
+            <h2>
+                <a  target="_blank" href="login.html">Login</a>
+            </h2>
+            
+            <h2><a  target="_blank" href="signupPage-updated.html">Signup</a></h2>
+        </div>
+    </div>
 </body>
 </html>
+<script>
+</script>
